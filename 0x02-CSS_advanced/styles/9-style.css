@@ -39,6 +39,7 @@ body {
 }
 a {
   color: #161616;
+  text-decoration: none;
 }
 .card-category {
   color: var(--color-primary);

@@ -36,10 +36,10 @@ body {
   min-height: var(--line-height-base);
   line-height: var(--line-height-base);
 }
-a[href] {
+/* a[href] {
   color: #161616;
   text-decoration: none;
-}
+} */
 a:visited {
   font-style: italic;
 }

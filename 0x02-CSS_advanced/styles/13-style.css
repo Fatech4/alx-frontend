@@ -36,9 +36,18 @@ body {
   min-height: var(--line-height-base);
   line-height: var(--line-height-base);
 }
-a {
+a:not(:empty) {
   color: #161616;
   text-decoration: none;
+}
+a:not(:empty):visited {
+  font-style: italic;
+}
+a:not(:empty):hover {
+  text-decoration: underline;
+}
+a:not(:empty):active {
+  background-color: var(--color-light-grey);
 }
 .card-category {
   color: var(--color-primary);

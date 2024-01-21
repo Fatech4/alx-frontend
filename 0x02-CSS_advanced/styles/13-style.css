@@ -40,7 +40,7 @@ body {
   color: #161616;
   text-decoration: none;
 } */
-a:visited {
+a[href]:visited {
   font-style: italic;
 }
 a:hover {

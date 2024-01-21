@@ -19,11 +19,6 @@
   --line-height-base: 1.5;
   --line-height-big: 1.8;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 html {
   scroll-behavior: smooth;
@@ -36,6 +31,8 @@ body {
   font-weight: var(--font-weight-regular);
   min-height: var(--line-height-base);
   line-height: var(--line-height-base);
+
+  min-inline-size: var(--line-height-base);
 }
 a {
   color: #161616;

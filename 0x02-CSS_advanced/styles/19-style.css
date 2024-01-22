@@ -203,7 +203,7 @@ body {
   min-height: var(--line-height-base);
   line-height: var(--line-height-base);
 }
-a {
+a:link {
   color: #161616;
   text-decoration: none;
 }
@@ -280,10 +280,7 @@ h6 {
 }
 .nav .nav-link {
   display: block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
@@ -308,7 +305,7 @@ ul.row {
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
-footer ul {
+.footer ul {
   text-align: right;
 }
 .footer {

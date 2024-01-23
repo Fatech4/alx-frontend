@@ -243,7 +243,7 @@ a:active {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background: var(--color-black);
-  /* --button-color: var(--color-white); */
+  --button-color: var(--color-white);
 }
 .card-category {
   color: var(--color-primary);

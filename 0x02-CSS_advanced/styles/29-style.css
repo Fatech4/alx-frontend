@@ -255,7 +255,7 @@ a:active {
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background);
+  background-color: var(--button-hover-background);
 }
 [data-section-theme='dark'] {
   --text-color: var(--color-white);
@@ -344,7 +344,7 @@ h6 {
   width: 0;
   height: 0.02rem;
 }
-.nav .nav-item:hover .nav-link::before {
+nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }

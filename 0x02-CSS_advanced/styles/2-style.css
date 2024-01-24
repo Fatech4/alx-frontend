@@ -19,3 +19,6 @@ a {
 .section-tagline {
   color: #d73953;
 }
+.visually-hidden {
+  display: none;
+}
